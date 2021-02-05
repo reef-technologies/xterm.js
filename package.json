@@ -23,7 +23,6 @@
     "build": "tsc -b ./tsconfig.all.json",
     "prepare": "npm run setup",
     "setup": "npm run build",
-    "install": "npm run package",
     "presetup": "node ./bin/install-addons.js",
     "prepublishOnly": "npm run package",
     "watch": "tsc -b -w ./tsconfig.all.json --preserveWatchOutput",

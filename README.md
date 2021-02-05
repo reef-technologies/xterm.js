@@ -18,6 +18,12 @@ Xterm.js is a front-end component written in TypeScript that lets applications b
 - Xterm.js is not a terminal application that you can download and use on your computer.
 - Xterm.js is not `bash`. Xterm.js can be connected to processes like `bash` and let you interact with them (provide input, receive output).
 
+## Packing
+
+```
+npm run package
+```
+
 ## Getting Started
 
 First you need to install the module, we ship exclusively through [npm](https://www.npmjs.com/) so you need that installed and then add xterm.js as a dependency by running:

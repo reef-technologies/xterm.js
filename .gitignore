@@ -1,7 +1,7 @@
 node_modules/
 *.swp
 .lock-wscript
-lib/
+#lib/
 out/
 out-test/
 .nyc_output/
